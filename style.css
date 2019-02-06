@@ -209,7 +209,7 @@ footer .fa:hover {
     padding-bottom: 50px;
     text-align: center;
     background-color: #fcfcfc;
-    height: 650px;
+    height: auto;
 }
 
 .card:hover {
@@ -221,8 +221,8 @@ footer .fa:hover {
 }
 
 .pic1 {
-    width: 479.004px;
-    height: 370px;
+    width: 100%;
+    height: auto;
 }
 
 .col-custom-five {
