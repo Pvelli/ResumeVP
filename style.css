@@ -1,34 +1,43 @@
 body {
     font-family: 'Poppins', sans-serif;
+    font-family: 'roboto', sans-serif;
 }
 p {
     font-size: 20px;
     font-family: 'Poppins', sans-serif;
 }
 
+.name {
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+}
+.desc {
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+}
 
 h1
 h2
-h3
 h5
 h6 {
     font-size: 30px;
     font-family: 'Poppins', sans-serif;
 }
 
+
 .navbar-custom .navbar-header > a {
     color: white; /*Change active text color here*/
     font-size: 20px;
-
+    font-family: 'roboto', sans-serif;
 }
 
 .navbar-custom .navbar-nav > li > a {
     color: white; /*Change active text color here*/
     font-size: 20px;
-
+    font-family: 'roboto', sans-serif;
 }
 .navbar-custom {
-    background: gray;
+    background: rgb(29, 29, 29);
 
     font-weight: 700;
     border: none;
@@ -64,7 +73,7 @@ section .container {
 
 header {
     text-align: center;
-    background: white;
+    background: rgb(184, 184, 184);
 }
 
 header .container {
@@ -102,20 +111,71 @@ section .container {
     padding-bottom: 150px;
 }
 
-footer {
-    padding-top: 50px;
-    padding-bottom: 50px;
-    background-color: gray;
+
+
+.grid-item-title {
+    font-weight: 700px;
+    font-size: 35px;
+}
+
+.fa-facebook {
+    font-size: 85px;
+    color: rgb(299,46,64);
 }
 
 
-footer .grid-container {
-    display: grid;
-    grid-template-columns: auto auto auto;
-    padding: 10px;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
+.fa-instagram {
+    font-size: 85px;
+    color: rgb(299,46,64);
+}
+
+hr.star-light, hr.star-primary {
+    padding: 0;
+    border: none;
+    border-top: solid 3px;
+    text-align: center;
+    max-width: 500px;
+    margin: 25px auto 30px;
+}
+
+.bg-primary {
+background-color: #000 !important;
+}
+
+.bg-circle
+{
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    padding: 14px 4px;
+    color: #ececec;
+    text-align: center;
+    border-radius: 50%;
+}
+
+.bg-circle-outline
+{
+    width: 50px;
+    height: 50px;
+    color:smoke;
+    padding: 8px 2px;
+    border: 2px solid;
+    border-color: smoke;
+    border-radius: 50%;
+}
+
+
+.bg-circle a, a:hover, .media a:focus
+{
+    text-decoration: none !important;
+    outline: none;
+    color: #ececec;
+}
+.bg-circle-outline a, a:hover, .media a:focus
+{
+    text-decoration: none !important;
+    outline: none;
+    color: #ececec;
 }
 
 footer .fa {
@@ -132,25 +192,59 @@ footer .fa:hover {
 }
 
 .fa-facebook {
-    background: gray;
-    color: white;
+    background: transparent;
+    color: rgb(58, 65, 172);
 }
 
 
 .fa-instagram {
-    background: gray;
-    color: white;
+    background:transparent;
+    color: rgb(194, 66, 155);
 }
 
-hr.star-light, hr.star-primary {
-    padding: 0;
-    border: none;
-    border-top: solid 3px;
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 0px;
+    padding-bottom: 50px;
     text-align: center;
-    max-width: 500px;
-    margin: 25px auto 30px;
+    background-color: #fcfcfc;
+    height: 650px;
 }
 
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
 
-  
+.container {
+    padding: 2px 16px;
+}
+
+.pic1 {
+    width: 479.004px;
+    height: 370px;
+}
+
+.col-custom-five {
+    padding: 60px;
+}
+
+#work h2 {
+    font-size: 30px;
+    font-family: 'Poppins', sans-serif;
+}
+
+#info h2 {
+    font-size: 30px!important;
+    font-family: 'Poppins', sans-serif!important;
+}
+
+.btn {
+    background-color: rgb(88, 88, 88);
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 20px;
+  }
 
