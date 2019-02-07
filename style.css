@@ -73,7 +73,7 @@ section .container {
 
 header {
     text-align: center;
-    background: rgb(184, 184, 184);
+    background: rgb(223, 223, 223);
 }
 
 header .container {
@@ -223,6 +223,10 @@ footer .fa:hover {
 
 .container {
     padding: 2px 16px;
+}
+
+#brainCol {
+    height: 538.41px;
 }
 
 .pic1 {

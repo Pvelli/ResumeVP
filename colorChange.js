@@ -1,6 +1,6 @@
 const input = document.querySelector("input")
-const example = document.querySelector("#main")
-const example2 = document.querySelector("#opCol")
+const example = document.querySelector("#brainCol")
+const example2 = document.querySelector("#brainCol")
 
 input.addEventListener("change", (e) => {
     const rgb = getRgb(e.target.value);
