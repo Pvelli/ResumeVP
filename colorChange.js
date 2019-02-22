@@ -2,6 +2,8 @@ const input = document.querySelector("input")
 const example = document.querySelector("#brainCol")
 const example2 = document.querySelector("#brainCol")
 
+
+//tekoälyn koulutus ja käyttäminen
 input.addEventListener("change", (e) => {
     const rgb = getRgb(e.target.value);
     const network = new brain.NeuralNetwork()
@@ -22,6 +24,8 @@ input.addEventListener("change", (e) => {
     example2.style.color = result === "dark" ? "white" : "black"
 })
 
+
+// hexin muutos rgbeeksi
 function getRgb(hex) {
     var shorthandRegex = /^#?([a-f\d])([a-f\d])([a-f\d])$/i;
     hex = hex.replace(shorthandRegex, function (m, r, g, b) {

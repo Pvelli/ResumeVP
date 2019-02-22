@@ -4,7 +4,7 @@
 (function ($) {
     "use strict";
 
-    // Scrolling
+    // Rullaus sektioneihin
     $('.page-scroll a').bind('click', function (event) {
         var $anchor = $(this);
         $('html, body').stop().animate({
@@ -13,7 +13,7 @@
         event.preventDefault();
     });
 
-    // Highlighting
+    // navigoinnin highlaittaaminen
     $('body').scrollspy({
         target: '.navbar-fixed-top',
         offset: 51
